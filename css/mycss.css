@@ -53,7 +53,12 @@
     -moz-user-select: none;
     user-select: none;
 }
+}
 #footer:before {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#footer-wrap {
     background-color: rgba(0, 0, 0, 0);
 }
 
@@ -168,4 +173,37 @@
             rgba(7, 179, 155, 0.1) 86%,
             rgba(109, 186, 130, 0.1) 100%
     );
+}
+
+/*所有页面实现毛玻璃特效*/
+#aside-content{
+    background: rgba(255,255,255,0);
+}
+
+
+#aside-content > .card-widget:first-child {
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(10px);
+}
+
+
+#aside-content .card-widget {
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(10px);
+}
+
+.layout > div:first-child:not(.recent-posts) {
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(10px);
+}
+
+#recent-posts > .recent-post-item {
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(10px);
+}
+/*搜索框美化*/
+.search-dialog {
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 0px;
 }
