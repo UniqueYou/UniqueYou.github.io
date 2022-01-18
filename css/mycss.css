@@ -183,33 +183,33 @@
 /*标题栏*/
 #page-header.nav-visible #nav {
     background: rgba(255,255,255,0.5);
-    backdrop-filter: blur(50px);
+    backdrop-filter: blur(30px);
 }
 
 #aside-content > .card-widget:first-child {
     background: rgba(255,255,255,0.5);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(30px);
 }
 
 
 #aside-content .card-widget {
     background: rgba(255,255,255,0.5);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(30px);
 }
 
 .layout > div:first-child:not(.recent-posts) {
     background: rgba(255,255,255,0.5);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(30px);
 }
 
 #recent-posts > .recent-post-item {
     background: rgba(255,255,255,0.5);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(30px);
 }
 /*搜索框美化*/
 .search-dialog {
     background: rgba(255,255,255,0.5);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(30px);
     border-radius: 0px;
 }
 
@@ -221,7 +221,7 @@
 /*手机端毛玻璃优化*/
 #sidebar #sidebar-menus.open {
     background: rgba(255,255,255,0.5);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(30px);
 }
 
 #sidebar #menu-mask {
