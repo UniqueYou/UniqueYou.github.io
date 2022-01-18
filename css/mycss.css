@@ -53,7 +53,7 @@
     -moz-user-select: none;
     user-select: none;
 }
-}
+
 #footer:before {
     background-color: rgba(0, 0, 0, 0);
 }
@@ -180,6 +180,11 @@
     background: rgba(255,255,255,0);
 }
 
+/*标题栏*/
+#page-header.nav-visible #nav {
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(50px);
+}
 
 #aside-content > .card-widget:first-child {
     background: rgba(255,255,255,0.5);
@@ -206,4 +211,19 @@
     background: rgba(255,255,255,0.5);
     backdrop-filter: blur(10px);
     border-radius: 0px;
+}
+
+#search-mask {
+    background: rgba(255,255,255,0);
+}
+
+
+/*手机端毛玻璃优化*/
+#sidebar #sidebar-menus.open {
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(10px);
+}
+
+#sidebar #menu-mask {
+    background: rgba(255,255,255,0);
 }
